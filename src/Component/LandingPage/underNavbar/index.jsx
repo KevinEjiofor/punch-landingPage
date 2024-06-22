@@ -2,7 +2,7 @@ import React from "react";
 import style from "./index.module.css";
 import inputIcon from "../../../assets/Vector.png";
 import ListDesign from "../../reuseable/LandingPage/ListDesign/index";
-import lineDesign from "../../../assets/Union.png";
+
 
 
 export default function UnderNavBarComponent() {
@@ -45,9 +45,7 @@ export default function UnderNavBarComponent() {
         </div>
        
       </div>
-      <div className={style.lineImage}>
-      <img src={lineDesign} alt="" />
-      </div>
+     
      
 
      

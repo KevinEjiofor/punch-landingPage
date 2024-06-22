@@ -1,13 +1,28 @@
+
+
+.lineImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -80px; 
+   
+}
+
+.lineDesignImage {
+    width: 100%;
+    max-width: none; 
+}
+
 .mainDiv {
     background-image: url("../../../assets/Rectangle 3206.png");
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-repeat:no-repeat;
-    /* align-items: center;
-    justify-content: space-around; */
-    /* background: rgb(237, 239, 255); */
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+    padding-bottom: 100px;
+  
 }
 
 .headerText {
@@ -15,24 +30,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-  
     padding-top: 100px;
-  
 }
-
 
 .headerText h1 {
     color: rgb(32, 34, 41);
     font-family: Switzer;
     font-size: 54px;
     font-weight: 700;
-    
-}
-.need{
-   margin-top: -50px;
 }
 
-.logos{
+.need {
+    margin-top: -50px;
+}
+
+.logos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -42,38 +54,33 @@
     padding-right: 100px;
 }
 
-.icons{
+.icons {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 50px;
     padding-top: 60px;
-    /* padding-right: 10px;
-    padding-left: 10px; */
 }
-.allIcons{
+
+.allIcons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    /* gap: 20px; */
-
 }
-.lastDiv{
+
+.lastDiv {
     display: flex;
     flex-direction: row;
-    /* justify-content:flex-start;
-    align-items: flex-start; */
     gap: 650px;
     padding: 20px 640px 0px 200px;
-    
 }
-.lastDiv p{
+
+.lastDiv p {
     color: rgba(32, 34, 41, 0.8);
     font-family: Switzer;
     font-size: 22px;
     font-weight: 700;
-    
 }
+

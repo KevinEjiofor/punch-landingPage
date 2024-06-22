@@ -1,0 +1,39 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    
+    padding-left:50px ;
+
+
+    
+
+}
+
+.mainDiv h1{
+
+color: rgb(32, 34, 41);
+font-family: Switzer;
+font-size: 54px;
+font-weight: 700;
+padding-right: 1350px ;
+
+}
+
+.mainDiv p{
+    color: rgba(30, 21, 21, 0.8);
+font-family: Switzer;
+font-size: 22px;
+font-weight: 400;
+padding-right: 1300px ;
+
+}
+
+.dropDownContainer{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-self: flex-start;
+     padding-top: 50px;
+     gap: 100px;
+}

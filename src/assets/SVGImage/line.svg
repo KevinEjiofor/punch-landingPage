@@ -1,0 +1,12 @@
+<svg width="1470.893066" height="132.994629" viewBox="0 0 1470.89 132.995" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<radialGradient gradientTransform="translate(763.25 132.994) rotate(176.812) scale(773.196 8551.4)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_Diamond_1_703_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#525AA0"/>
+			<stop offset="1.000000" stop-color="#A285D0" stop-opacity="0.000000"/>
+		</radialGradient>
+	</defs>
+	<path id="Union" d="M0 52.5L1468.5 0L1469 13.991L0.500244 66.491L0 52.5ZM1.55359 71.999L1470.05 19.499L1470.45 30.4919L1.94666 82.9919L1.55359 71.999ZM1470.61 38.998L2.10718 91.498L2.39307 99.4929L1470.89 46.9929L1470.61 38.998ZM2.16077 110.997L1470.66 58.4971L1470.84 63.4939L2.33936 115.994L2.16077 110.997ZM1470.7 77.4966L2.19653 129.997L2.30371 132.995L1470.8 80.4946L1470.7 77.4966Z" clip-rule="evenodd" fill="url(#paint_Diamond_1_703_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+</svg>

@@ -1,0 +1,77 @@
+
+.MmainDiv{
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 7px;
+  
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+
+}
+.dropDownHeader {
+  width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding: 10px;
+
+ 
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 7px;
+    
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+    background: rgb(255, 255, 255);
+
+    box-sizing: border-box;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.dropDownHeader h1{
+  color: rgb(32, 34, 41);
+font-family: Switzer;
+font-size: 16px;
+font-weight: 400;
+}
+
+.dropDownContainer {
+  box-sizing: border-box;
+  margin-top: 10px; /* Add some spacing between header and content */
+}
+
+
+
+.text {
+  margin: 0px;
+  
+padding-left: 30PX;
+border: 1px solid rgb(240, 240, 240);
+border-radius: 7px;
+
+box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.07);
+background: rgb(255, 255, 255);
+width: 470px;
+
+  
+  
+}
+
+.text p{
+  color: rgb(32, 34, 41);
+font-family: Switzer;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.dropDownText {
+
+
+width: 420px;
+
+/* left: 70px;
+top: 486px; */
+}
