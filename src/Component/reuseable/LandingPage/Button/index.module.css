@@ -1,0 +1,15 @@
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.buttonDiv button{
+
+    border-radius: 0px;
+  ;
+    border: none;
+    cursor: pointer;
+
+}

@@ -1,0 +1,53 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+}
+.secondDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 215px;
+    /* padding-right: 90px; */
+}
+
+.mainDiv h1{
+    color: rgb(32, 34, 41);
+    font-family: Switzer Variable;
+    font-size: 24px;
+    font-weight: 500;
+
+
+  
+    
+}
+
+.mainDiv p{
+    color: rgba(32, 34, 41, 0.8);
+font-family: Switzer;
+font-size: 16px;
+font-weight: 400;
+
+}
+.lastIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 215px;
+}
+.h1Div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-right: 500px;
+    padding-left: 215px;
+    /* padding-right: 670px; */
+}

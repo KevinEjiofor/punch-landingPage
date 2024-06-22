@@ -1,8 +1,13 @@
 .mainDiv {
+    background-image: url("../../../assets/Rectangle 3206.png");
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-around;
-    background: rgb(237, 239, 255);
+    align-items: center;
+    background-repeat:no-repeat;
+    /* align-items: center;
+    justify-content: space-around; */
+    /* background: rgb(237, 239, 255); */
 }
 
 .headerText {
@@ -10,8 +15,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+  
     padding-top: 100px;
-        margin: 0px;
+  
 }
 
 
@@ -24,4 +30,50 @@
 }
 .need{
    margin-top: -50px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding-top: 90px;
+    padding-right: 100px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding-top: 60px;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+}
+.allIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    /* gap: 20px; */
+
+}
+.lastDiv{
+    display: flex;
+    flex-direction: row;
+    /* justify-content:flex-start;
+    align-items: flex-start; */
+    gap: 650px;
+    padding: 20px 640px 0px 200px;
+    
+}
+.lastDiv p{
+    color: rgba(32, 34, 41, 0.8);
+    font-family: Switzer;
+    font-size: 22px;
+    font-weight: 700;
+    
 }
