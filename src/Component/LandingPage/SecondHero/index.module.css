@@ -1,0 +1,27 @@
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(237, 239, 255);
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+        margin: 0px;
+}
+
+
+.headerText h1 {
+    color: rgb(32, 34, 41);
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 700;
+    
+}
+.need{
+   margin-top: -50px;
+}

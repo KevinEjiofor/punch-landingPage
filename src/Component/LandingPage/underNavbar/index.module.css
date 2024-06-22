@@ -1,0 +1,113 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.inputDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+
+}
+
+.inputDiv>input {
+    padding: 20px 250px 20px 10px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(240, 240, 240);
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+}
+
+.inputDiv>input::placeholder {
+    font-family: Switzer;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(32, 34, 41);
+
+}
+
+span {
+    color: rgb(149, 149, 149);
+}
+
+.inputDiv>button {
+
+    padding: 20px 20px;
+    border-radius: 10px;
+    background: rgb(255, 190, 46);
+    border: none;
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.secondMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: rgb(248, 248, 248);
+  
+}
+.buttonDiv{
+    padding: 20px 50px;
+}
+
+.button1 {
+    color: rgb(32, 34, 41);
+    font-family: Switzer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(199, 244, 194);
+    border: none;
+    cursor: pointer;
+    padding: 10px 50px;
+
+}
+
+.button2{
+   
+
+    color: rgb(32, 34, 41);
+    font-family: Switzer;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 15px;
+    background: rgb(210, 210, 210, 0.3);
+    opacity: 0.15;
+    border: none;
+    cursor: pointer;
+    padding: 10px 50px;
+
+}
+
+.button2:hover{
+    background: rgb(199, 244, 194);
+
+}
+.listDesign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    gap :200px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.lineImage{
+    display: flex;
+    justify-content: flex-end;
+   align-self: flex-end;
+    padding-top: 80px ;
+}

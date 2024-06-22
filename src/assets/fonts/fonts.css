@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Switzer';
-    src: url('./Switzer.woff2') format('woff2'),
-         url('./Switzer.woff') format('woff'),
-         url('./Switzer.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  

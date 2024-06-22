@@ -1,0 +1,18 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    margin: 0px;
+ 
+
+
+}
+.mainDiv > p{
+    color: rgb(149, 149, 149);
+    font-family: Switzer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+
+}
