@@ -1,0 +1,172 @@
+/* Main container styling */
+.mainDiv {
+    background: linear-gradient(180deg, rgb(12, 12, 12), rgb(32, 34, 41) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+/* Header styling */
+.header {
+    background-image: url("../../../assets/Rectangle 3215.png");
+    background-position: bottom center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* Header text styling */
+.header h1 {
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Button container styling */
+.buttonDiv {
+    padding-bottom: 100px;
+}
+
+
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+    padding: 100px 400px 0px 400px;
+}
+
+/* Text styling */
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.mainFoot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+
+}
+/* Company logo container styling */
+.companyLogoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 300px;
+}
+.logoC{
+    padding-left: 50px;
+}
+/* P-tag container styling */
+.ptagDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+   
+}
+
+.ptagDiv p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Switzer;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Adjust button container styling */
+.buttonDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 50px;
+
+  
+}
+
+.buttonDiv p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Switzer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Button styling */
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+  
+}
+
+.button button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 20px 51px;
+    border-radius: 20.27px;
+    background: rgb(41, 43, 52);
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button text styling */
+.button button p {
+    margin: 0;
+    color: rgb(237, 239, 255);
+    font-family: Switzer;
+    font-size: 14.86px;
+    font-weight: 500;
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+   padding-top: 400px;
+ 
+
+}
+.h1TagDiv{
+    padding-right:550px ;
+
+}
+.h1TagDiv h1{
+    color: rgb(255, 255, 255);
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 600;
+
+}
+.listDesign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+    margin: 0;
+    padding-top: 50px;
+
+
+
+}

@@ -1,15 +1,19 @@
-.buttonDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.buttonDiv button{
 
-    border-radius: 0px;
-  ;
-    border: none;
-    cursor: pointer;
+.buttonDiv button {
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  background: none; /* Remove default button background */
+  padding: 0; /* Remove default button padding */
+}
 
+.buttonDiv button img {
+  border: none;
+  display: block; 
 }

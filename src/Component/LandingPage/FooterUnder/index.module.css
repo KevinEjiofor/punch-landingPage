@@ -1,0 +1,40 @@
+
+
+.mainDiv {
+    margin-top: 1px;
+  
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(12, 12, 12), rgb(32, 34, 41) 100%);
+
+}
+.first{
+
+    padding-left: 30px;
+
+}
+.first p{
+    color: rgb(255, 255, 255);
+font-family: Switzer;
+font-size: 18px;
+font-weight: 500;
+
+}
+.second {
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+ padding-right: 30px;
+}
+
+.second p{
+    color: rgb(149, 149, 149);
+    font-family: Switzer;
+    font-size: 18px;
+    font-weight: 500;
+
+    
+}

@@ -1,8 +1,11 @@
 import NavBar from "../NavBar/index";
-import UnderNavBar from "../underNavBar/index";
-import SecondHero from '../SecondHero/index'
-import ThirdHero from "../../../Component/LandingPage/ThirdHero";
+import UnderNavBar from "../underNavBar";
+import SecondHero from '../SecondHero'
+import ThirdHero from "../ThirdHero";
 import FourthHero from "../FourthHero";
+// import FifthHero from "../FifthHero";
+import Footer from "../Footer";
+import FootUnder from "../FooterUnder";
 
 export const LandingPage = () => {
   return (
@@ -12,7 +15,9 @@ export const LandingPage = () => {
       <SecondHero />
       <ThirdHero />
       <FourthHero/>
-      
+      {/* <FifthHero /> */}
+      <Footer />
+      <FootUnder/>
     </>
   );
 };
