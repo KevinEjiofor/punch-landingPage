@@ -6,10 +6,11 @@ import SecondHero from "./LandingPageCompontent/SecondHero";
 import ThirdHero from "./LandingPageCompontent/ThirdHero";
 import FourthHero from "./LandingPageCompontent/FourthHero";
 // import FifthHero from "./LandingPageCompontent/FifthHero";
+import SixthHero from "./LandingPageCompontent/SixthHero";
+import Slide from "./LandingPageCompontent/SlideFooter";
+
 import Footer from "./LandingPageCompontent/Footer";
 import FootUnder from "./LandingPageCompontent/FooterUnder";
-import SixthHero from "./LandingPageCompontent/SixthHero";
-// import Slide from "./LandingPageCompontent/SlideFooter";
 
 export default function HomePage() {
   return (
@@ -22,7 +23,7 @@ export default function HomePage() {
       <FourthHero /> 
       {/* <FifthHero /> */}
 
-     {/* <Slide/> */}
+     <Slide/>
      <SixthHero/>
       <Footer/>
       <FootUnder/> 

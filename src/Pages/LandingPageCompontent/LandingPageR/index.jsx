@@ -5,10 +5,11 @@ import SecondHero from '../SecondHero'
 import ThirdHero from "../ThirdHero";
 import FourthHero from "../FourthHero";
 // import FifthHero from "../FifthHero";
+import SixthHero from "../SixthHero";
 import Footer from "../Footer";
 import FootUnder from "../FooterUnder";
-// import Slide from "../SlideFooter";
-import SixthHero from "../SixthHero";
+import Slide from "../SlideFooter";
+
 
 export const LandingPage = () => {
   return (
@@ -20,7 +21,7 @@ export const LandingPage = () => {
       <ThirdHero />
       <FourthHero/>
       {/* <FifthHero /> */}
-      {/* <Slide /> */}
+      <Slide />
       
       <SixthHero />
       <Footer />
