@@ -1,0 +1,27 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-between ;
+    color: white;
+}
+
+.h1Div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:space-between ;
+   
+}
+
+
+
+
+
+
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

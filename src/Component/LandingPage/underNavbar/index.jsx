@@ -5,9 +5,11 @@ import ListDesign from "../../reuseable/LandingPage/ListDesign/index";
 
 
 
+
 export default function UnderNavBarComponent() {
   return (
     <div className={style.mainDiv}>
+    
       <div className={style.inputDiv}>
         <input id="search" placeholder="Looking for design  |" type="text" />
         <button>

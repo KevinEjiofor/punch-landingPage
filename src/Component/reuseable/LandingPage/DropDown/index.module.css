@@ -63,9 +63,7 @@ width: 470px;
 font-family: Switzer;
 font-size: 16px;
 font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
+
 }
 .dropDownText {
 
@@ -74,4 +72,24 @@ width: 420px;
 
 /* left: 70px;
 top: 486px; */
+}
+
+@media only screen and (max-width: 768px) {
+  .dropDownHeader {
+    width: 300px;
+  }
+
+  .dropDownText {
+
+
+    width: 300px;
+    
+  }
+  .text {
+    
+  width: 270px;
+  
+    
+    
+  }
 }

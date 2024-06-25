@@ -107,3 +107,71 @@ span {
     padding-right: 50px;
 
 }
+@media only screen and (max-width: 844px) and (max-height: 390px) {
+    .inputDiv>input {
+        padding: 10px 50px 20px 10px;
+        
+    }
+    
+        .buttonDiv{
+            display: flex;
+            flex-direction: row;
+            
+        }
+       
+        .button1{
+            padding: 10px 25px;
+        }
+    
+         
+        .button2{
+            padding: 10px 25px;
+        }
+        .listDesign{
+            
+            gap :50px;
+            padding-left:50px;
+            padding-right: 50px;
+        }
+    
+   
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.inputDiv>input {
+    padding: 10px 50px 20px 10px;
+    
+}
+
+    .buttonDiv{
+        display: flex;
+        flex-direction: row;
+        
+    }
+   
+    .button1{
+        padding: 10px 25px;
+    }
+
+     
+    .button2{
+        padding: 10px 25px;
+    }
+    .listDesign{
+        
+        gap :50px;
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+@media only screen and (max-width: 1318px) and (max-height: 857px) {
+    
+}

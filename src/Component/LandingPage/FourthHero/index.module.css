@@ -1,39 +1,102 @@
-.mainDiv{
+.mainDiv {
     display: flex;
     flex-direction: column;
     padding-top: 80px;
-    
-    padding-left:50px ;
-
-
-    
-
+    padding-left: 50px;
 }
 
-.mainDiv h1{
-
-color: rgb(32, 34, 41);
-font-family: Switzer;
-font-size: 54px;
-font-weight: 700;
-padding-right: 1350px ;
-
+.mainDiv h1 {
+    color: rgb(32, 34, 41);
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 700;
+    padding-right: 1350px;
 }
 
-.mainDiv p{
+.mainDiv p {
     color: rgba(30, 21, 21, 0.8);
-font-family: Switzer;
-font-size: 22px;
-font-weight: 400;
-padding-right: 1300px ;
-
+    font-family: Switzer;
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 1300px;
 }
 
-.dropDownContainer{
+.dropDownContainer {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
     align-self: flex-start;
-     padding-top: 50px;
-     gap: 100px;
+    padding-top: 50px;
+    gap: 100px;
+}
+@media only screen and (max-width: 844px) and (max-height: 390px) {
+    .mainDiv {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .mainDiv h1 {
+        font-size: 13px; 
+        padding-right: 20px;
+    }
+
+    .mainDiv p {
+        font-size: 10px; 
+        padding-right: 20px;
+    }
+
+   
+
+   
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .mainDiv {
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+
+    .mainDiv h1 {
+        font-size: 32px; /* Adjusted font size for smaller screens */
+        padding-right: 20px; /* Remove excessive padding */
+        width: 100%; /* Ensure width fits within the screen */
+    }
+
+    .mainDiv p {
+        font-size: 18px; /* Adjusted font size for smaller screens */
+        padding-right: 20px; /* Remove excessive padding */
+        width: 100%;
+    }
+
+    .dropDownContainer {
+        padding-top: 30px;
+        gap: 20px;
+    }
+
+ 
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+   
+    
+    .mainDiv h1 {
+      
+        padding-right: 400px;
+    }
+
+    .mainDiv p {
+        padding-right: 350px;
+    }
+}
+@media only screen and (max-width: 1318px) and (max-height: 857px) {
+    .mainDiv h1 {
+      
+        padding-right: 700px;
+    }
+
+    .mainDiv p {
+        padding-right: 650px;
+    }
 }

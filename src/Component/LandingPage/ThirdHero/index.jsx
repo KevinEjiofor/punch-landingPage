@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import style from "./index.module.css";
 import imageComponent from "../../../assets/component.png";
 import imageLine2 from "../../../assets/Vector 342.png";

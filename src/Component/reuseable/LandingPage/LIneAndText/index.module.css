@@ -1,0 +1,39 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding-right: 450px;
+  
+}
+
+.textU{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.textU p{
+    color: rgb(32, 34, 41);
+    font-family: Switzer;
+    font-size: 22px;
+    font-weight: 350;
+        text-align: left;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.lineV{
+    display: block;
+    width: 130%;
+
+}
+.ptag{
+   padding-left:  600px;
+}
+.ptag P{
+    color: rgb(32, 34, 41);
+font-family: Switzer;
+font-size: 22px;
+font-weight: 400;
+
+}

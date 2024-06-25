@@ -45,7 +45,7 @@ export default function FooterComponent() {
         </div>
 
         <div className={style.leftContainer}>
-          <div className={style.h1TagDiv}>
+          <div className={style.h1TagDiv}>  
             <h1>Connecting the right people to the right businesses.</h1>
           </div>
           <div className={style.listDesign}>

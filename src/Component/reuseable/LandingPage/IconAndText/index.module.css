@@ -51,3 +51,56 @@ font-weight: 400;
     padding-left: 215px;
     /* padding-right: 670px; */
 }
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .h1Div{
+     
+        gap: 5px;
+        padding-right: 350px;
+        padding-left: 300px;
+        
+    }
+    .secondDiv{
+      
+        gap: 20px;
+        padding-left:300px;
+        /* padding-right: 90px; */
+    }
+    .lastIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 1318px) and (max-height: 857px) {
+    .h1Div{
+     
+        gap: 5px;
+        padding-right: 150px;
+        padding-left: 50px;
+        
+    }
+    .secondDiv{
+      
+        gap: 20px;
+        padding-left:50px;
+        /* padding-right: 90px; */
+    }
+    .lastIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-left: 50px;
+    }
+
+}

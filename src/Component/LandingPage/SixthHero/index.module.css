@@ -1,0 +1,35 @@
+.mainDiv{
+    background-image: url("../../../assets/Rectangle3.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.htag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+
+}
+.question{
+    margin-top: -20px;
+}
+.mainDiv h1{
+    color: rgb(32, 34, 41);
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 700;
+;
+}
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

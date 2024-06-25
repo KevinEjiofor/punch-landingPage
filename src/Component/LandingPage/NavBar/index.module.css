@@ -137,7 +137,59 @@
 .showMenu {
   display: flex !important;
 }
+@media only screen and (max-width: 844px) and (max-height: 390px) {
+  .burgerButton {
+    display: block;
+  }
+  .showRoom{
+    display: none;
+  }
+  .mainNavBar{
+    gap: 170px;
+  }
 
+  .dropdownMenu .selection {
+    display: flex;
+    flex-direction: column;
+   
+  }
+ 
+  .dropdownMenu.authButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .showRoom2{
+    display: none;
+
+  }
+  .authButtons {
+    padding-top: 30px;
+  }
+
+  .dropdownMenu {
+    display: none;
+  }
+
+  .showMenu {
+    display: flex !important;
+  }
+
+  .h1Div > h1 {
+    
+    font-size: 27px;
+  
+  }
+
+  .h1Div > p {
+    
+    font-size: 20px;
+  
+  }
+
+ 
+   
+}
 @media only screen and (max-width: 768px) {
   .burgerButton {
     display: block;

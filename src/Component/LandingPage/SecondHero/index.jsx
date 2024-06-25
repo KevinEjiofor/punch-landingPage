@@ -8,9 +8,13 @@ import icon2 from "../../../assets/icon2.png";
 import icon3 from "../../../assets/icon3.png";
 import Button from "../../reuseable/LandingPage/Button/index"
 import image from "../../../assets/frame.png"
+
+
+
 export default function SecondHero() {
   return (
     <div className={style.mainDiv}>
+       
       <div className={style.headerText}>
         <h1>
           Your one-stop marketplace for
