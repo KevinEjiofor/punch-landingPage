@@ -5,7 +5,7 @@ import Line from "./LandingPageCompontent/Line";
 import SecondHero from "./LandingPageCompontent/SecondHero";
 import ThirdHero from "./LandingPageCompontent/ThirdHero";
 import FourthHero from "./LandingPageCompontent/FourthHero";
-// import FifthHero from "./LandingPageCompontent/FifthHero";
+import FifthHero from "./LandingPageCompontent/FifthHero";
 import SixthHero from "./LandingPageCompontent/SixthHero";
 import Slide from "./LandingPageCompontent/SlideFooter";
 
@@ -21,7 +21,7 @@ export default function HomePage() {
       <SecondHero />
       <ThirdHero />
       <FourthHero /> 
-      {/* <FifthHero /> */}
+      <FifthHero />
 
      <Slide/>
      <SixthHero/>

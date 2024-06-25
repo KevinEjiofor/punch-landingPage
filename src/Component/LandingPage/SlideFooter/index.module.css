@@ -1,38 +1,107 @@
-.mainDiv { 
+/* Main container styling */
+.mainDiv {
     background-repeat: no-repeat;
     background-size: 120% auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 20px;
-    padding-left: 50px;
+    padding: 100px 20px;
     gap: 200px;
     display: flex;
     flex-direction: row;
-  background-image: url("../../../assets/Rectangle\ 3206.png");
- margin: 0;
-}
-.text{
-    
+    background-image: url("../../../assets/Rectangle 3206.png");
+    margin: 0;
+  }
+  
+  /* Text container styling */
+  .text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    
-    
-}
-.text h1{
+  }
+  
+  .text h1 {
     color: rgb(32, 34, 41);
-font-family: Switzer;
-font-size: 54px;
-font-weight: 700;
-
-}
-.text p{
+    font-family: Switzer;
+    font-size: 54px;
+    font-weight: 700;
+  }
+  
+  .text p {
     color: rgba(32, 34, 41, 0.8);
     font-family: Switzer;
     font-size: 22px;
     font-weight: 400;
-
-
-}
+  }
+  
+  /* Responsive styling */
+  
+  /* Small screens (mobile) */
+  @media only screen and (max-width: 768px) {
+    .mainDiv {
+      flex-direction: column;
+      padding: 50px 10px;
+      gap: 20px;
+      background-size: cover;
+    }
+  
+    .text h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .text p {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .showRoom {
+      width: 100%;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .mainDiv {
+      flex-direction: column;
+      padding: 70px 15px;
+      gap: 40px;
+      background-size: cover;
+    }
+  
+    .text h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .text p {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .showRoom {
+      width: 100%;
+    }
+  }
+  
+  /* Large screens (desktop) */
+  @media only screen and (min-width: 1025px) {
+    .mainDiv {
+      flex-direction: row;
+      gap: 200px;
+      background-size: 120% auto;
+    }
+  
+    .text h1 {
+      font-size: 54px;
+      text-align: left;
+    }
+  
+    .text p {
+      font-size: 22px;
+      text-align: left;
+    }
+  
+    .showRoom {
+      width: auto;
+    }
+  }
+  

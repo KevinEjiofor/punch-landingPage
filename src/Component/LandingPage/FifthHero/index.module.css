@@ -1,7 +1,50 @@
-.mainDiv{
+/* Main container styling */
+.mainDiv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 300px 0px 0px 20px;
-}
+    padding: 300px 20px 0;
+  }
+  
+  /* Image styling */
+  .mainDiv img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive styling */
+  
+  /* Small screens (mobile) */
+  @media only screen and (max-width: 768px) {
+    .mainDiv {
+      padding: 150px 10px 0;
+    }
+  
+    .mainDiv img {
+      max-width: 90%;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .mainDiv {
+      padding: 200px 15px 0;
+    }
+  
+    .mainDiv img {
+      max-width: 95%;
+    }
+  }
+  
+  /* Large screens (desktop) */
+  @media only screen and (min-width: 1025px) {
+    .mainDiv {
+      padding: 300px 20px 0;
+    }
+  
+    .mainDiv img {
+      max-width: 100%;
+    }
+  }
+  
