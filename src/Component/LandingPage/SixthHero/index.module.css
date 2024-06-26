@@ -43,8 +43,7 @@
   /* Small screens (mobile) */
   @media only screen and (max-width: 768px) {
     .mainDiv {
-      padding: 100px 10px 50px;
-      background-size: cover;
+      display: none;
     }
   
     .mainDiv h1 {
