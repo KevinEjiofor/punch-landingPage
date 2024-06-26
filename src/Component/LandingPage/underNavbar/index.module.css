@@ -141,7 +141,7 @@ span {
 
 
 .inputDiv>input {
-    padding: 10px 50px 20px 10px;
+    padding: 10px 10px 20px 10px;
     
 }
 
@@ -152,18 +152,18 @@ span {
     }
    
     .button1{
-        padding: 10px 25px;
+        padding: 10px 15px;
     }
 
      
     .button2{
-        padding: 10px 25px;
+        padding: 10px 15px;
     }
     .listDesign{
         
         gap :50px;
-        padding-left:50px;
-        padding-right: 50px;
+        padding-left:30px;
+        padding-right: 30px;
     }
 
 }

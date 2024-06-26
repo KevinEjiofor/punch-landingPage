@@ -53,26 +53,30 @@
 
 @media only screen and (max-width: 768px) {
     .mainDiv {
-        padding-top: 40px;
+        padding-top: 20px;
         padding-left: 20px;
+        display: none;
+       
     }
-
     .mainDiv h1 {
-        font-size: 32px; /* Adjusted font size for smaller screens */
-        padding-right: 20px; /* Remove excessive padding */
-        width: 100%; /* Ensure width fits within the screen */
+        font-size: 49px; 
+        padding-right: 50px;
+      
     }
 
+
+.text{
+    display : none;
+}
+  
     .mainDiv p {
-        font-size: 18px; /* Adjusted font size for smaller screens */
-        padding-right: 20px; /* Remove excessive padding */
-        width: 100%;
+        font-size: 30px; 
+        padding-right: 20px;
     }
-
-    .dropDownContainer {
+    /* .dropDownContainer {
         padding-top: 30px;
         gap: 20px;
-    }
+    } */
 
  
 }

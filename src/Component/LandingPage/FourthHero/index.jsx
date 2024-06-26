@@ -5,7 +5,7 @@ import DropDown from "../../reuseable/LandingPage/DropDown";
 export default function FourthHeroComponent() {
   return (
     <div className={style.mainDiv}>
-      <div>
+      <div className={style.text}>
         <h1>How we ensure you’re in good hands.</h1>
         <p>
           With our comprehensive screening process, we hand-pick highly skilled

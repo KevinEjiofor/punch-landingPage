@@ -10,14 +10,14 @@ import SixthHero from "./LandingPageCompontent/SixthHero";
 import Slide from "./LandingPageCompontent/SlideFooter";
 
 import Footer from "./LandingPageCompontent/Footer";
-import FootUnder from "./LandingPageCompontent/FooterUnder";
+// import FootUnder from "./LandingPageCompontent/FooterUnder";
 
 export default function HomePage() {
   return (
     <>
       <NavBar />
       <UnderNavBar />
-      <Line  />
+       <Line  /> 
       <SecondHero />
       <ThirdHero />
       <FourthHero /> 
@@ -26,7 +26,7 @@ export default function HomePage() {
      <Slide/>
      <SixthHero/>
       <Footer/>
-      <FootUnder/> 
-    </>
+      {/* <FootUnder/>  */}
+    </> 
   );
 }
